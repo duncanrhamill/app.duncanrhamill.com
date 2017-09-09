@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<md-toolbar class=\"z-depth-2\" color=\"primary\">\n    <span>app.duncanrhamill.com</span>\n    <span class=\"fill-remaining\"></span>\n    <button md-icon-button (click)=\"navigateTo('duncanrhamill.com')\">\n        <md-icon class=\"md-24\" aria-label=\"Go to duncanrhamill.com\" mdTooltip=\"Goto duncanrhamill.com\" mdTooltipPosition=\"left\">home</md-icon>\n    </button>\n</md-toolbar>\n\n<apps-list></apps-list>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<md-toolbar class=\"z-depth-2\" color=\"primary\">\n    <span>app.duncanrhamill.com</span>\n    <span class=\"fill-remaining\"></span>\n    <button md-icon-button (click)=\"navigateTo('https://duncanrhamill.com')\">\n        <md-icon class=\"md-24\" aria-label=\"Go to duncanrhamill.com\" mdTooltip=\"Goto duncanrhamill.com\" mdTooltipPosition=\"left\">home</md-icon>\n    </button>\n</md-toolbar>\n\n<apps-list></apps-list>\n\n"
 
 /***/ }),
 
@@ -222,8 +222,13 @@ MdNgImports = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: true
+    production: false
 };
 //# sourceMappingURL=environment.js.map
 
